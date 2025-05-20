@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>🌸 Quiz Cozy: Descubra Seu Cozy Game!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Descubra seu Jogo Cozy Ideal 🎮</h1>
+    <form id="quizForm">
+      <div class="question">
+        <p>1. O que você mais gosta em um jogo?</p>
+        <label><input type="radio" name="q1" value="1" required> Explorar lugares calmos</label>
+        <label><input type="radio" name="q1" value="2"> Decorar ambientes</label>
+        <label><input type="radio" name="q1" value="3"> Cuidar de fazendas ou animais</label>
+        <label><input type="radio" name="q1" value="4"> Resolver puzzles</label>
+        <label><input type="radio" name="q1" value="5"> Conhecer personagens cativantes</label>
+      </div>
+
+      <div class="question">
+        <p>2. Como você prefere jogar?</p>
+        <label><input type="radio" name="q2" value="1" required> Sem pressa, no meu tempo</label>
+        <label><input type="radio" name="q2" value="2"> Cumprindo pequenas missões</label>
+        <label><input type="radio" name="q2" value="3"> Organizando e montando coisas</label>
+        <label><input type="radio" name="q2" value="4"> Fazendo amizades no jogo</label>
+        <label><input type="radio" name="q2" value="5"> Administrando recursos</label>
+      </div>
+
+      <div class="question">
+        <p>3. Qual cenário te atrai mais?</p>
+        <label><input type="radio" name="q3" value="1" required> Ilha paradisíaca</label>
+        <label><input type="radio" name="q3" value="2"> Vila aconchegante</label>
+        <label><input type="radio" name="q3" value="3"> Céu com ilhas flutuantes</label>
+        <label><input type="radio" name="q3" value="4"> Montanha com floresta</label>
+        <label><input type="radio" name="q3" value="5"> Espaço com slimes fofos</label>
+      </div>
+
+      <div class="question">
+        <p>4. Qual dessas atividades você prefere?</p>
+        <label><input type="radio" name="q4" value="1" required> Cultivar e colher</label>
+        <label><input type="radio" name="q4" value="2"> Pescar e explorar</label>
+        <label><input type="radio" name="q4" value="3"> Decorar e organizar</label>
+        <label><input type="radio" name="q4" value="4"> Conversar com NPCs</label>
+        <label><input type="radio" name="q4" value="5"> Resolver quebra-cabeças</label>
+      </div>
+
+      <div class="question">
+        <p>5. Como você quer se sentir jogando?</p>
+        <label><input type="radio" name="q5" value="1" required> Relaxado</label>
+        <label><input type="radio" name="q5" value="2"> Criativo</label>
+        <label><input type="radio" name="q5" value="3"> Inspirado</label>
+        <label><input type="radio" name="q5" value="4"> Conectado com a história</label>
+        <label><input type="radio" name="q5" value="5"> Estimulado mentalmente</label>
+      </div>
+
+      <button type="submit">Ver meu jogo cozy</button>
+    </form>
+
+    <div id="result" class="hidden"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
